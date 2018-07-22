@@ -16,11 +16,11 @@ public class CreateEmployee {
 		entitymanager.getTransaction().begin();
 		
 		Employee employee = new Employee();
-		employee.setEid( 1202 );
-	    employee.setEname( "Mangesh" );
-	    employee.setSalary( 40000 );
-	    employee.setDeg( "Technical Manager" );
-		
+		employee.setEid(1206);
+	    employee.setEname("Kiran");
+	    employee.setSalary(35000);
+	    employee.setDeg( "Proof Reader" );
+		 
 	    entitymanager.persist( employee );
 	    entitymanager.getTransaction( ).commit( );
 	    
